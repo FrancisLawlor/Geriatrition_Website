@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GERIATRITION</title>
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="geriatrition.css" />
+</head>
+
+<body>
+	<div id="content">
+	
+		<div id="left">
+		</div>
+		
+		<div id="center">	
+			<div id="header">
+				<a href="home.html"><img alt="Logo" width="291" height="90" src="misc/geriatrition_logo.png" class="bar"></a>
+			</div>
+	
+			<div class="buttoncontainer">
+				<div style="margin-left: 12px; width:1122px">
+					<a href="home.html" ><img width="270" height="100" alt="Home" src="buttons/home.png" class="buttons" onMouseOver="hover('buttons2/home2.png',this)" onMouseOut="nothover('buttons/home.png',this)"></a>
+					<a href="courses.html" ><img width="270" height="100" alt="Courses" src="buttons/courses.png" class="buttons" onMouseOver="hover('buttons2/courses2.png',this)" onMouseOut="nothover('buttons/courses.png',this)"></a>
+				</div>
+			</div>
+			
+			<hr>
+			
+			<div id="container">
+				<div class="left_in"></div>
+				
+				<div class="middle_in">
+					<article class="text">
+						<h1 class="heading text underline">Classes</h1>
+							
+						<p>
+							<b>All</b> fitness classes are free for GERIATRITION members. You DO NOT have to be a member of any of the gyms or leisure centres where our classes are held to participate. Those who are not members may attend fitness classes on a pay as you go basis.
+						</p>
+						
+						<p>
+							Our programs are designed specifically for people over the age of 65. You will be provided with personalised programs based on your abilities. We concentrate on both nutrition and fitness components in ensuring that you get the results you desire. During classes you will receive encouragement and guidance from our qualified personal trainers, to ensure that you get the most out of your workout.
+						</p>
+						
+						<p>
+							The classes available are listed below:
+						</p>
+						
+						<table>
+							<tr>
+								<th>Class</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<th>Spinning</th>
+								<td>A high-paced class carried out using stationary bikes. Suitable for all levels.</td>
+							</tr>
+							<tr>
+								<th>Boxing</th>
+								<td>A class incorporating punching and kicking to improve stamina.</td>
+							</tr>
+							<tr>
+								<th>Step-aerobics</th>
+								<td>A class incorporating steps and other aerobic exercises.</td>
+							</tr>
+							<tr>
+								<th>Bodyball</th>
+								<td>A class designed to improve core strength and balance. It is carried out using a large inflatable ball.</td>
+							</tr>
+						</table>
+						
+						<p>
+							Timetables vary so check your nearest Leisure Center or Gym to find out when you can participate!
+						</p>
+						
+						<h2 class="heading text">Membership Fees</h2>
+						
+						<table>
+							<tr>
+								<th>Type</th>
+								<th>Price</th>
+							</tr>
+							<tr>
+								<th>pay as you go</th>
+								<td>&euro;7.50 per session/class</td>
+							</tr>
+							<tr>
+								<th>3-month membership</th>
+								<td>&euro;110</td>
+							</tr>
+							<tr>
+								<th>12-month membership</th>
+								<td>&euro;400</td>
+							</tr>
+						</table>
+						
+						<br />
+					</article>
+				</div>
+				
+				
+				<div class="right_in">
+					<div style="float:left;">
+						<img alt="Make text bigger" class="control" height="52" width="120" src="buttons/bigger.png" onclick="makebigger()" onMouseOver="hover('buttons2/bigger2.png',this)" onMouseOut="nothover('buttons/bigger.png',this)">
+						<img alt="Make text smaller" class="control" height="52" width="120" src="buttons/smaller.png" onclick="makesmaller()"  onMouseOver="hover('buttons2/smaller2.png',this)" onMouseOut="nothover('buttons/smaller.png',this)">
+					</div>
+					
+					<div style="float:left;">
+						<img alt="Listen to text" class="control" height="52" width="120" src="buttons/listen.png" onclick="playMP3()" onMouseOver="hover('buttons2/listen2.png',this)" onMouseOut="nothover('buttons/listen.png',this)">
+						<img alt="Pause" class="control" height="52" width="120" src="buttons/pause.png" onclick="pauseMP3()"  onMouseOver="hover('buttons2/pause2.png',this)" onMouseOut="nothover('buttons/pause.png',this)">
+					</div>				
+				</div>
+			</div>
+		</div>
+		
+		<div style="padding-bottom:76%" id="right">
+		</div>
+		
+		<div style="clear:both"></div>	
+		
+		<div id="footer">
+			<p>&copy;2015 GERIATRITION</p>
+		</div>
+	</div>
+		
+	<audio src="recordings/classes.mp3" id="mp3" preload="auto"></audio>
+	
+	<script src="geriatrition.js" type="text/javascript">
+	</script>
+</body>
+
+</html>

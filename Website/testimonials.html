@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GERIATRITION</title>
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="geriatrition.css" />
+</head>
+
+<body>
+	<div id="content">
+	
+		<div id="left">
+		</div>
+		
+		<div id="center">
+			<div id="header">
+				<a href="home.html"><img alt="Logo" width="291" height="90" src="misc/geriatrition_logo.png" class="bar"></a>
+			</div>
+	
+			<div class="buttoncontainer">
+				<div style="margin-left: 12px; width:1122px">
+					<a href="home.html" ><img width="270" height="100" alt="Home" src="buttons/home.png" class="buttons" onMouseOver="hover('buttons2/home2.png',this)" onMouseOut="nothover('buttons/home.png',this)"></a>
+					<a href="aboutus.html" ><img width="270" height="100" alt="About Us" src="buttons/aboutus.png" class="buttons" onMouseOver="hover('buttons2/aboutus2.png',this)" onMouseOut="nothover('buttons/aboutus.png',this)"></a>
+				</div>
+			</div>
+			
+			<hr>
+			
+			<div id="container">
+				<div class="left_in"></div>
+				
+				<div class="middle_in">
+					<article class="text">
+						<h1 class="heading underline">Testimonials</h1>
+						
+						<p>
+							We at GERIATRITION have been very lucky over the past few years to receive a lot of positive feedback from our clients. We’re proud of the fact that we’ve been able to positively impact so many lives and hope to continue to do so. In order to get a better insight in to what our community can offer you, read about some of the experiences that clients have had with us below:
+						</p>
+						
+						<blockquote>
+							<p>
+								I was interested in going to the gym but at 67 I was worried it might be a stressful environment for me. My daughter told me about GERIATRITION who were starting up a Zumba course for people my age in the gym nearby. It sounded like it was a great idea but I was still concerned that it might be too difficult or that the instructors might be impatient with me. The first session was free so I thought I’d give it a go for the first week at least and that way I’d have nothing to lose. It turned out to be very enjoyable and I signed up straight away!
+							</p>
+							<cite>
+								-Mary Walsh, Wexford
+							</cite>
+						</blockquote>
+						
+						<blockquote>
+							<p>
+								My friends were raving about GERIATRITION and I decided to go along with them one week to see what all the fuss was about. I wasn’t the most active person and I wasn’t expecting to have a good time. But I ended up loving it. The coaches were encouraging and helpful. The other people doing the class were lovely. I go with my friends any chance I get now. And I’ve lost weight too!
+							</p>
+							<cite>
+								-Gráinne King, Dublin
+							</cite>
+						</blockquote>
+						
+						<img alt="Elderly exercise" src="misc/Elderly_exercise.png" style="float:left;padding:10px;">
+						
+						<br />
+						
+						<blockquote>
+							<p>
+								After a few months of illness I became very weak without exercise. I needed to build up my strength again, surrounded by people who knew what my limits were. My doctor suggested GERIATRITION. I went along for the free session and the instructors were all so helpful. GERIATRITION played a key role in my recovery and also in helping me to feel better than I have in years.
+							</p>
+							<cite>
+								-James Prendergast, Cork
+							</cite>
+						</blockquote>
+
+							
+					</article>
+				</div>
+				
+				<div class="right_in">
+					<div style="float:left;">
+						<img alt="Make text bigger" class="control" height="52" width="120" src="buttons/bigger.png" onclick="makebigger()" onMouseOver="hover('buttons2/bigger2.png',this)" onMouseOut="nothover('buttons/bigger.png',this)">
+						<img alt="Make text smaller" class="control" height="52" width="120" src="buttons/smaller.png" onclick="makesmaller()"  onMouseOver="hover('buttons2/smaller2.png',this)" onMouseOut="nothover('buttons/smaller.png',this)">
+					</div>
+					
+					<div style="float:left;">
+						<img alt="Listen to text" class="control" height="52" width="120" src="buttons/listen.png" onclick="playMP3()" onMouseOver="hover('buttons2/listen2.png',this)" onMouseOut="nothover('buttons/listen.png',this)">
+						<img alt="Pause" class="control" height="52" width="120" src="buttons/pause.png" onclick="pauseMP3()"  onMouseOver="hover('buttons2/pause2.png',this)" onMouseOut="nothover('buttons/pause.png',this)">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div style="padding-bottom:79.5%" id="right">
+		</div>
+		
+		<div style="clear:both"></div>	
+		
+		<div id="footer">
+			<p>&copy;2015 GERIATRITION</p>
+		</div>
+	</div>
+		
+	<audio src="recordings/testimonials.mp3" id="mp3" preload="auto"></audio>
+	
+	<script src="geriatrition.js" type="text/javascript">
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+html
+	{ 
+		background: url(paisley.png) no-repeat center center fixed; 
+		background-size: cover;
+	}
+	
+html,body
+	{
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+	
+#content
+	{
+		min-height:100%;
+		position:relative;
+	}
+
+#header
+	{
+		position: relative;
+		clear: both;
+		border-bottom: solid;
+		border-width:thin;
+		border-color: #CCC;
+		height:90px;
+		width:100%;
+	}
+	
+#footer 
+	{
+		background:#CCC;
+		width:100%;
+		height:50px;
+		bottom:0;
+		left:0;
+	}
+
+#footer p
+	{
+		text-align: center;
+		font-family: arial;
+		font-size: 90%;
+		padding-top: 15px;
+	}
+	
+.buttons
+	{
+		display:inline-block;
+		height:100px;
+		width: 24%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25px;
+	}
+
+.bar
+	{
+		z-index: 2;
+		margin-left: 1%;
+	}
+
+#left, #right, #center
+	{
+		float: left;
+	}
+	
+#left 
+	{
+		width:7%;
+		margin: 5px;
+	}
+	
+#center 
+	{
+		margin: 5px 0;
+		width: 84%;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 15px black;
+		border-radius: 15px;
+	}
+	
+#right 
+	{
+		width: 7%;
+		margin: 5px;
+	}
+
+.left_in, .right_in, .middle_in
+	{
+		float: left;
+	}
+	
+.left_in 
+	{
+		width:5%;
+		margin: 5px;
+	}
+	
+.middle_in 
+	{
+		margin: 5px 0;
+		width: 68%;
+	}
+	
+.right_in 
+	{
+		margin: 5px;
+		width: 24%;
+		border-left: solid thin #CCC;
+		padding-left: 5px;
+	}
+
+hr
+	{ 
+		border: 0; 
+		border-top: 1px solid #ccc;
+		width: 95%;
+	}
+
+.buttoncontainer
+	{
+		margin-left:10px;
+		padding-bottom: 20px;
+		width: 100%;
+		height: 120px;
+	}
+
+.text
+	{
+		font-size: 17px;
+		font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	}
+
+.heading
+	{
+		font-size:20px;
+		font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	}
+
+#slideshow
+	{
+		padding: 10px;
+		margin-left: 75px;
+		box-shadow: 0px 0px 5px black;
+	}
+
+form
+	{
+		font-style: italic;
+		margin-left: 30px;
+	}
+
+.paper
+	{
+		background-image: url(misc/papers.png);
+		background-repeat: no-repeat;
+		width: 750px;
+	}
+
+textarea
+	{
+		width: 600px;
+		resize: none;
+	}
+
+button
+	{
+		border:none;
+		background: transparent;
+	}
+	
+table 
+	{
+		border-collapse: collapse;
+	}
+
+table, th, td
+	 {
+		border: 1px solid black;
+		padding: 5px;
+		text-align: center;
+	}
+
+.control
+	{
+		padding: 3px; 
+		height: 45.42615px;
+		width: 115.35489px;
+	}
+	
+article
+	{
+		float:left;
+		width:95%;
+	}
+
+ul li
+	{
+		display: block;
+	}
+	
+.underline
+	{
+		text-decoration: underline;
+	}

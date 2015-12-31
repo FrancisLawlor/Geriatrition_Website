@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GERIATRITION</title>
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="geriatrition.css" />
+</head>
+
+<body>
+	<div id="content">
+	
+		<div id="left">
+		</div>
+		
+		<div id="center">		
+			<div id="header">
+				<a href="home.html"><img alt="Logo" width="291" height="90" src="misc/geriatrition_logo.png" class="bar"></a>
+			</div>
+			
+			<div class="buttoncontainer">
+				<div style="margin-left: 12px; width:1122px">
+					<a href="home.html" ><img width="270" height="100" alt="Home" src="buttons/home.png" class="buttons" onMouseOver="hover('buttons2/home2.png',this)" onMouseOut="nothover('buttons/home.png',this)"></a>
+				</div>
+			</div>
+				
+			<hr>
+				
+			<div id="container">
+				<div class="left_in"></div>
+				
+				<div class="middle_in">
+					<article class="text">
+						<h1 class="heading underline">Nutrition</h1>
+						
+						<p>
+							An important aspect of achieving fitness goals is ensuring that your diet doesn’t detract from your progress.
+						</p>
+						
+						<p>
+							Our team consists partially of a collection of nutritionists and dieticians who are capable of helping you to identify what you should be eating in order to maximise your vitality and energy-levels. With years of experience in working with clients of all ages our team can effectively guide you and take in to consideration any specific requirements you might have.
+						</p>
+						
+						<img alt="journal" style="padding-top: 5px; display:block; margin-left: auto; margin-right: auto;" height="221" width="318" src="misc/journal.png">
+						
+						<h2 class="heading">
+							Food Journal
+						</h2>
+						
+						<p>
+							We ask that anybody who is interested in taking our nutritional advice maintain a record of their dietary habits for a full week in the form of a food journal. It’s simple! Write down everything you eat for a week.
+						</p>
+						
+						<p>
+							When the week is finished you can then present your journal to us at one of our sessions. We will help you to identify where any changes need to be made or where certain foods need to be added.
+						</p>
+						
+					</article>
+				</div>
+					
+				<div class="right_in">
+					<div style="float:left;">
+						<img alt="Make text bigger" class="control" height="52" width="120" src="buttons/bigger.png" onclick="makebigger()" onMouseOver="hover('buttons2/bigger2.png',this)" onMouseOut="nothover('buttons/bigger.png',this)">
+						<img alt="Make text smaller" class="control" height="52" width="120" src="buttons/smaller.png" onclick="makesmaller()"  onMouseOver="hover('buttons2/smaller2.png',this)" onMouseOut="nothover('buttons/smaller.png',this)">
+					</div>
+					
+					<div style="float:left;">
+						<img alt="Listen to text" class="control" height="52" width="120" src="buttons/listen.png" onclick="playMP3()" onMouseOver="hover('buttons2/listen2.png',this)" onMouseOut="nothover('buttons/listen.png',this)">
+						<img alt="Pause" class="control" height="52" width="120" src="buttons/pause.png" onclick="pauseMP3()"  onMouseOver="hover('buttons2/pause2.png',this)" onMouseOut="nothover('buttons/pause.png',this)">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div style="padding-bottom:70%" id="right">
+		</div>
+		
+		<div style="clear:both"></div>	
+		
+		<div id="footer">
+			<p>&copy;2015 GERIATRITION</p>
+		</div>
+	</div>
+		
+	<audio src="recordings/nutrition.mp3" id="mp3" preload="auto"></audio>
+	
+	<script src="geriatrition.js" type="text/javascript">
+	</script>
+</body>
+
+</html>
