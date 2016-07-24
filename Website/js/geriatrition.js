@@ -45,11 +45,11 @@ function makesmaller()
 function preloadSlideshow() 
 	{
 		imageList = [
-			"slideshow/gympic2.png",
-			"slideshow/gympic3.png",
-			"slideshow/gympic4.png",
-			"slideshow/gympic5.png",
-			"slideshow/gympic1.png"
+			"../slideshow/gympic2.png",
+			"../slideshow/gympic3.png",
+			"../slideshow/gympic4.png",
+			"../slideshow/gympic5.png",
+			"../slideshow/gympic1.png"
 		];
 		for(var i = 0; i < imageList.length; i++ ) 
 		{
